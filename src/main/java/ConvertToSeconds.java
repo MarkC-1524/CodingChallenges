@@ -15,7 +15,7 @@ public class ConvertToSeconds {
         }
         System.out.println("This is not a time machine. " + minutes + " is an invalid amount of time");
     }
-
+ 
     public static int convert(int minutes){
         return minutes*60;
     }
